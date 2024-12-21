@@ -1,0 +1,23 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "package.json for my pipeline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njamutoh/Petclinic.git"
+  },
+  "keywords": [
+    "petclinic",
+    "management"
+  ],
+  "author": "njamutoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njamutoh/Petclinic/issues"
+  },
+  "homepage": "https://github.com/njamutoh/Petclinic#readme"
+}
