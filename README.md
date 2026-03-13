@@ -1,6 +1,6 @@
 # ClaraMed Appointment Booking System
 
-> A production-ready patient appointment booking application built with Python/Flask, deployed on AWS Elastic Beanstalk, with a fully automated 7-stage CI/CD pipeline using AWS CodePipeline — demonstrating both Continuous Deployment and Continuous Delivery patterns.
+> A production-ready patient appointment booking application built with Python — automated from GitHub push to production on AWS Elastic Beanstalk using CodePipeline, with multi-environment staging and SNS-gated production approval, illustrating the difference between Continuous Deployment and Continuous Delivery.
 
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?style=flat&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-3.0-000000?style=flat&logo=flask&logoColor=white)
