@@ -61,7 +61,7 @@ The root cause was not a lack of engineering skill — it was a lack of **proces
 
 This project delivers two things simultaneously:
 
-**1. A web-based appointment booking system** — patients and clinic staff can book, view, and cancel appointments through a browser instead of a phone call, backed by a REST API that can integrate with future systems (EHR, SMS reminders, billing).
+**1. A web-based appointment booking system — patients and clinic staff can book, view, and cancel appointments through a browser instead of a phone call. The application exposes API endpoints that a future developer can extend to add features like SMS reminders, billing integration, or connection to an Electronic Health Records system.
 
 **2. A production-grade CI/CD pipeline** — every code push to GitHub automatically triggers a pipeline that runs tests, deploys to staging, then holds at a manual SNS approval gate before the Head of IT authorises a production release. No code reaches production without passing tests and receiving explicit sign-off.
 
