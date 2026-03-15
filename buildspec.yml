@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      python: 3.11
+
+  build:
+    commands:
+      - pip install -r requirements.txt
+      - pip install pytest
+      - python -m pytest test_app.py -v
+
+artifacts:
+  files:
+    - "**/*"
+  discard-paths: no
